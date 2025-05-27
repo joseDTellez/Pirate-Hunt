@@ -93,6 +93,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -103,25 +116,16 @@ TextureImporter:
         x: 17
         y: 12
         width: 30
-<<<<<<< HEAD
         height: 50
-=======
-        height: 51
->>>>>>> 2048d652e96c3618a4e0df66aab96637087828b9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
-      spriteID: e5cca88e843bbc9479b931ee2651e192
-      internalID: 716655567
-=======
-      spriteID: 9d311264b89dd58458c28c1f28ab5a91
-      internalID: -495607659
->>>>>>> 2048d652e96c3618a4e0df66aab96637087828b9
+      spriteID: 5d55ed543f8490a70800000000000000
+      internalID: 8793639957104055765
       vertices: []
       indices: 
       edges: []
@@ -141,13 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: db05d4e83bd60344e8a6064b5392a2c0
-      internalID: -1747846135
-=======
-      spriteID: 11583f5484086a24fbc338fd8bcbcc70
-      internalID: -776154386
->>>>>>> 2048d652e96c3618a4e0df66aab96637087828b9
+      spriteID: 0af528b11bad96e40a2c0f12f27875fd
+      internalID: 607532022
       vertices: []
       indices: 
       edges: []
@@ -155,7 +154,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 00fb0629ee6f33e4f81d871a4707f15b
     internalID: 0
     vertices: []
     indices: 
@@ -163,13 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< HEAD
-      idle_0: 716655567
-      idle_1: -1747846135
-=======
-      idle_0: -495607659
-      idle_1: -776154386
->>>>>>> 2048d652e96c3618a4e0df66aab96637087828b9
+      idle_0: 8793639957104055765
+      idle_1: 607532022
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
