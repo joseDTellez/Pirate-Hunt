@@ -8,7 +8,7 @@ public class controladorBala : MonoBehaviour
 {
     public Slider sliderAngulo;
     public Slider sliderVelocidad;
-    public Bala scriptTiro; // Referencia al script del tiro
+    public DisparoManager scriptTiro; // Referencia al script del tiro
     public TextMeshProUGUI textoAngulo, textoVelocidad;
 
     void Update()

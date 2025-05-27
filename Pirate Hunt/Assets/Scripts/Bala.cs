@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-
 public class Bala : MonoBehaviour
 {
     public float masa = 3.8f, c = 1.5f, g = 9.81f, angulo;//Valores iniciales
@@ -14,11 +12,11 @@ public class Bala : MonoBehaviour
     [SerializeField] private float daño;
     void Start()
     {
-        tInicial = Time.time;                       //Tiempo inicial
-        anguloRadianes = angulo * Mathf.PI / 180f;  //pasar el angulo a radianes
-        float velInicial = 0;                     //velocidad inicial
-        vx = velInicial * Mathf.Cos(anguloRadianes);//velocidad en eje x
-        vy = velInicial * Mathf.Sin(anguloRadianes);//velocidad en eje y
+        //tInicial = Time.time;                       //Tiempo inicial
+        //anguloRadianes = angulo * Mathf.PI / 180f;  //pasar el angulo a radianes
+        //float velInicial = 0;                     //velocidad inicial
+        //vx = velInicial * Mathf.Cos(anguloRadianes);//velocidad en eje x
+        //vy = velInicial * Mathf.Sin(anguloRadianes);//velocidad en eje y
         movimiento = transform.position;            //posicion en Unity
     }
     void Update()                                   //Metodo de runge kutta 
@@ -40,7 +38,10 @@ public class Bala : MonoBehaviour
             movimiento.x += vx * Time.deltaTime;
             movimiento.y += vy * Time.deltaTime;
         }
-
+        if (transform.position.y <= -4.5f)
+        {
+            Destroy(gameObject);
+        }
         /*if (movimiento.y <= 0)
         {
             movimiento.y = 0;
